@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="frontend, html, js, lab 7, лабараторна робота 7">
+    <meta name="description" content="JavaScript. Форми">
+    <title>Веденська А.В., ІК-81</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h2>ТРІГОНОМЕТРИЧНІ ФУНКЦІЇ</h2>
+    <h3>Кут повинен бути більше 0 та менше 90</h3>
+    <form id="form">
+      <div>
+        <label for="degrees">Кут в градусах: </label>
+        <input type="number" name="degrees" id="degrees">
+      </div>
+      <div>
+        <label for="func">Функція: </label>
+        <select name="func" id="func">
+          <option value="sin">синус</option>
+          <option value="cos">косинус</option>
+          <option value="tan">тангенс</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" id="submitBtn" value="Обчислити">
+      </div>
+    </form>
+
+    <div id="display"></div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

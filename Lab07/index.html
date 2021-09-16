@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="frontend, html, php, lab 7, лабараторна робота 7">
+    <meta name="description" content="JavaScript. Форми">
+    <title>Веденська А.В., ІК-81</title>
+  </head>
+  <body>
+    <h2>Замовлення меблів</h2>
+    <form action="form.php" method="post">
+      <div>
+        <label for="product">Виріб</label>
+        <br>
+        <select name="product" id="product">
+          <option value="Шафа">Шафа</option>
+          <option value="Стіл">Стіл</option>
+          <option value="Серват">Сервант</option>
+        </select>
+      </div>
+      <div>
+        <label for="material">Матеріал</label>
+        <br>
+        <select name="material" id="material">
+          <option value="Дуб">Дуб</option>
+          <option value="Горіх">Горіх</option>
+          <option value="Бук">Бук</option>
+        </select>
+      </div>
+      <div>
+        <label for="quantity">Кількість</label>
+        <br>
+        <input type="number" name="quantity" id="quantity" value="1">
+      </div>
+      <div>
+        <input type="submit" value="Відправити">
+      </div>
+    </form>
+  </body>
+</html>

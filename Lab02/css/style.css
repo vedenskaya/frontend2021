@@ -1,0 +1,21 @@
+.orange, .red {
+  width: 200px;
+  height: 200px;
+  background-color: #d09222;
+  opacity: 0.5;
+  position: absolute;
+  border: 10px double; black;
+  border-radius: 40px;
+}
+
+.red {
+  background-color: #ab3b3b;
+  left: 100px;
+  top: 100px;
+}
+.block {
+  position: relative;
+  top: 100px;
+
+}
+

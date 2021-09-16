@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="frontend, html, css, lab 2, лабараторна робота 2">
+    <meta name="description" content="Лабораторна робота №2 з курсу Front-end програмування. Тема: Мова гіпертекстової розмітки сайту HTML-5. Таблиці. Каскадна таблиця стилів CSS-3">
+    <title>Веденська А.В., ІК-81</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      table {
+        width: 500px;
+        height: 150px;
+      }
+
+      table tr:nth-child(1) {
+        background-color: #6A509A;
+        font-size: 36px;
+      }
+          table tr:nth-child(2) {
+        background-color:#027520;
+        font-size: 4px;
+      }
+       table tr:nth-child(1):hover {
+        background-color: #027520;
+        font-size: 36px;
+      }
+          table tr:nth-child(2):hover {
+        background-color:#6A509A;
+        font-size: 4px;
+      }
+
+      </style>
+  </head>
+  <body>
+    <table border="1">
+      <tbody>
+        <tr>
+      <td></td>
+      <td></td>
+      <td rowspan="2">Веденська</td>
+      <td>Анна</td>
+      <td rowspan="2">Віталіївна</td>
+    </tr>
+
+    <tr>
+      <td colspan="2">Ік-81</td>
+      <td>Лр-2 Варіант8</td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+      <td colspan="3"></td>
+      </tr>
+      </tbody>
+    </table>
+    <div class="block">
+      <div class="orange"></div>
+      <div class="red"></div>
+    </div>
+
+
+  </body>
+</html>
